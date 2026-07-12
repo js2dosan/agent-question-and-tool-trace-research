@@ -1,0 +1,3 @@
+Create a standard 3x3 three-player tic-tac-toe web game. Do not change the board size or standard three-in-a-row win condition.
+
+Create a three-player tic-tac-toe web game. Work carefully, inspect files before editing, verify behavior with tests or browser checks, and explain final design decisions.

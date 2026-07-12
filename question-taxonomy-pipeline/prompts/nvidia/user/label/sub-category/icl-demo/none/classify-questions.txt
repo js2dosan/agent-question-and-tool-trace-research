@@ -1,0 +1,31 @@
+Return exactly this JSON shape:
+{
+  "items": [
+    {
+      "index": 1,
+      "question": "Why did you choose this layout?",
+      "label": "DRQ",
+      "subcategory": "Rationale/Function/Goal Orientation"
+    },
+    {
+      "index": 2,
+      "question": "How many samples were used?",
+      "label": "LLQ",
+      "subcategory": "Quantification"
+    }
+  ]
+}
+
+Rules:
+- `label` is exactly one of: "LLQ", "DRQ", "GDQ".
+- `subcategory` is exactly one of:
+  "Verification", "Disjunctive", "Definition", "Example", "Feature Specification", "Concept Completion", "Quantification", "Comparison", "Judgmental",
+  "Interpretation", "Rationale/Function/Goal Orientation", "Causal Antecedent", "Causal Consequent", "Expectational", "Instrumental/Procedural", "Enablement",
+  "Proposal/Negotiation", "Method Generation", "Scenario Creation", "Ideation".
+- Preserve input order and index numbers.
+- The question field must be the input text without the numeric prefix.
+- Output only JSON.
+
+```text
+{{questions_block}}
+```

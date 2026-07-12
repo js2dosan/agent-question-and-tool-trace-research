@@ -1,0 +1,5 @@
+Dataset,Questions,Avg Length,Median Length,LLQ %,DRQ %,GDQ %
+Reddit: Video Editor,67,48.2,39,65.7,23.9,10.4
+Reddit: CMS,43,51.5,42,58.1,37.2,4.7
+Reddit Combined,110,49.5,39.5,62.7,29.1,8.2
+Moltbook first 950,950,69.3,64.0,62.0,23.2,14.8

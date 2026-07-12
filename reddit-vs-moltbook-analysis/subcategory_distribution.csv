@@ -1,0 +1,56 @@
+Dataset,Subcategory,Count,Percent
+Reddit: Video Editor,Verification,22,32.84
+Reddit: Video Editor,Feature Specification,13,19.4
+Reddit: Video Editor,Instrumental/Procedural,9,13.43
+Reddit: Video Editor,Proposal/Negotiation,5,7.46
+Reddit: Video Editor,Rationale/Function/Goal Orientation,4,5.97
+Reddit: Video Editor,Quantification,3,4.48
+Reddit: Video Editor,Concept Completion,2,2.99
+Reddit: Video Editor,Interpretation,2,2.99
+Reddit: Video Editor,Judgmental,2,2.99
+Reddit: Video Editor,Method Generation,2,2.99
+Reddit: Video Editor,Causal Antecedent,1,1.49
+Reddit: Video Editor,Definition,1,1.49
+Reddit: Video Editor,Disjunctive,1,1.49
+Reddit: CMS,Verification,14,32.56
+Reddit: CMS,Rationale/Function/Goal Orientation,8,18.6
+Reddit: CMS,Feature Specification,5,11.63
+Reddit: CMS,Instrumental/Procedural,5,11.63
+Reddit: CMS,Concept Completion,3,6.98
+Reddit: CMS,Expectational,3,6.98
+Reddit: CMS,Judgmental,2,4.65
+Reddit: CMS,Proposal/Negotiation,2,4.65
+Reddit: CMS,Quantification,1,2.33
+Reddit Combined,Verification,36,32.73
+Reddit Combined,Feature Specification,18,16.36
+Reddit Combined,Instrumental/Procedural,14,12.73
+Reddit Combined,Rationale/Function/Goal Orientation,12,10.91
+Reddit Combined,Proposal/Negotiation,7,6.36
+Reddit Combined,Concept Completion,5,4.55
+Reddit Combined,Judgmental,4,3.64
+Reddit Combined,Quantification,4,3.64
+Reddit Combined,Expectational,3,2.73
+Reddit Combined,Interpretation,2,1.82
+Reddit Combined,Method Generation,2,1.82
+Reddit Combined,Causal Antecedent,1,0.91
+Reddit Combined,Definition,1,0.91
+Reddit Combined,Disjunctive,1,0.91
+Moltbook first 950,Disjunctive,232,24.42
+Moltbook first 950,Instrumental/Procedural,176,18.53
+Moltbook first 950,Verification,173,18.21
+Moltbook first 950,Proposal/Negotiation,92,9.68
+Moltbook first 950,Feature Specification,48,5.05
+Moltbook first 950,Judgmental,39,4.11
+Moltbook first 950,Concept Completion,34,3.58
+Moltbook first 950,Quantification,33,3.47
+Moltbook first 950,Scenario Creation,19,2.0
+Moltbook first 950,Method Generation,16,1.68
+Moltbook first 950,Rationale/Function/Goal Orientation,16,1.68
+Moltbook first 950,Comparison,15,1.58
+Moltbook first 950,Causal Consequent,14,1.47
+Moltbook first 950,Ideation,14,1.47
+Moltbook first 950,Example,13,1.37
+Moltbook first 950,Interpretation,12,1.26
+Moltbook first 950,Definition,2,0.21
+Moltbook first 950,Causal Antecedent,1,0.11
+Moltbook first 950,Enablement,1,0.11

@@ -1,0 +1,44 @@
+# Smoke test: reclassify only the first 2 Gemini-baseline questions with NVIDIA Step 3.7 Flash.
+
+provider: nvidia
+model: stepfun-ai/step-3.7-flash
+
+data_dir: outputs/20260601_194517_gemini_gemini-2.5-flash_bs50_subcat1_icl0_icl_sub0
+providers_dir: configs/providers
+
+test_file: test_predictions.csv
+icl_demo_file: null
+
+taxonomy_file: configs/taxonomy.yaml
+
+batch_size: 1
+
+row_start: 0
+row_end: 2
+
+prompts_root: prompts
+prompts_register_in_opik: false
+opik_capture_io: false
+
+label_subcategories: true
+include_icl_demo: false
+include_subcategory_in_icl_demo: false
+
+group_col: null
+
+icl_demo_question_col: null
+icl_demo_category_col: null
+icl_demo_subcategory_col: null
+
+test_question_col: question
+test_category_col: null
+test_subcategory_col: null
+
+stats:
+  seed: 42
+  n_boot: 10000
+  alpha: 0.05
+  labels_order:
+    - LLQ
+    - DRQ
+    - GDQ

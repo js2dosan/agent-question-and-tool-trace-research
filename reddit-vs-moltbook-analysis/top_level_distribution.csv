@@ -1,0 +1,13 @@
+Dataset,Label,Count,Percent
+Reddit: Video Editor,LLQ,44,65.67
+Reddit: Video Editor,DRQ,16,23.88
+Reddit: Video Editor,GDQ,7,10.45
+Reddit: CMS,LLQ,25,58.14
+Reddit: CMS,DRQ,16,37.21
+Reddit: CMS,GDQ,2,4.65
+Reddit Combined,LLQ,69,62.73
+Reddit Combined,DRQ,32,29.09
+Reddit Combined,GDQ,9,8.18
+Moltbook first 950,LLQ,589,62.0
+Moltbook first 950,DRQ,220,23.16
+Moltbook first 950,GDQ,141,14.84

@@ -1,0 +1,45 @@
+# Inference-only config for one-question-per-line cleaned Moltbook text.
+
+provider: gemini
+model: gemini-2.5-flash
+
+data_dir: dataset/moltbook
+providers_dir: configs/providers
+
+test_file: moltbook_questions_cleaned.txt
+icl_demo_file: null
+
+taxonomy_file: configs/taxonomy.yaml
+
+batch_size: 50
+
+# Optional zero-based row slicing for chunked/resume runs.
+row_start: 950
+row_end: null
+
+prompts_root: prompts
+prompts_register_in_opik: false
+opik_capture_io: false
+
+label_subcategories: true
+include_icl_demo: false
+include_subcategory_in_icl_demo: false
+
+group_col: null
+
+icl_demo_question_col: null
+icl_demo_category_col: null
+icl_demo_subcategory_col: null
+
+test_question_col: question
+test_category_col: null
+test_subcategory_col: null
+
+stats:
+  seed: 42
+  n_boot: 10000
+  alpha: 0.05
+  labels_order:
+    - LLQ
+    - DRQ
+    - GDQ

@@ -1,0 +1,46 @@
+# Inference-only config for cleaned Moltbook questions using NVIDIA hosted Mistral Large.
+
+provider: nvidia
+model: mistralai/mistral-large-3-675b-instruct-2512
+
+data_dir: dataset/moltbook
+providers_dir: configs/providers
+
+test_file: moltbook_questions_cleaned.txt
+icl_demo_file: null
+
+taxonomy_file: configs/taxonomy.yaml
+
+# Keep batches small for free chat-completions endpoints and reliable JSON output.
+batch_size: 10
+
+# Optional zero-based row slicing for chunked/resume runs.
+row_start: 0
+row_end: 1000
+
+prompts_root: prompts
+prompts_register_in_opik: false
+opik_capture_io: false
+
+label_subcategories: true
+include_icl_demo: false
+include_subcategory_in_icl_demo: false
+
+group_col: null
+
+icl_demo_question_col: null
+icl_demo_category_col: null
+icl_demo_subcategory_col: null
+
+test_question_col: question
+test_category_col: null
+test_subcategory_col: null
+
+stats:
+  seed: 42
+  n_boot: 10000
+  alpha: 0.05
+  labels_order:
+    - LLQ
+    - DRQ
+    - GDQ

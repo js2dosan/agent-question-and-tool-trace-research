@@ -1,0 +1,47 @@
+Does Reddit have any feedback?
+Where can I report bugs?
+EDIT2: Dear author, are you online?
+We're still using md5?
+Might I ask why you don't like globals?
+Are there any drawbacks to the method you described?
+Why did you build this?
+Will you make a profit from it in some way?
+If you won't profit from it what were your motivations to do this?
+How to create a new "page"
+How to create site navigation
+How do I create/upload a custom theme
+Do plugins/custom modules exist for extended functionality
+How certain are you of the security?
+Have you submitted it to be hacked by any experts?
+Can't say I'm too certain right now.
+Why are you making an asynchronous call to a PHP script to generate a simple div with your alert in it?
+Why not do it directly in JavaScript?
+Does that option even do anything?
+EDIT: I see there is this functionality, but it seems only for textual columns?
+Will check it out more in depth soon.
+which I think is reasonable.
+Can someone explain what this does?
+Would be interesting to know what made you make that design decision.
+Also, I'd be interested to know, is this your first proper application?
+Great to be ambitious and all that, but learning to program on one huge project spanning several years?
+Got any other, smaller, more manageable projects we can see?
+does your server meet the requirements?
+It sounds like a potential htaccess issue?
+Does the installation create a DB?
+What kind of progress did you make?
+What is its killer feature?
+For which type of website will this CMS be the undisputed best choice?
+which could be an advantage or disadvantage depending on your site/project.
+Wouldn't be nicer if the revert was just loading the previous version in the form without actually doing the revert?
+I like your logo, how did you make it?
+Alright, who hacked the site?
+What made you decide to release it as open source rather than a commercial product?
+why are you turning off etags in the htaccess?
+why not reply on etags, last-modified and expires?
+Does that make sense?
+What is the biggest lesson(s) you have learnt whilst building this?
+How much planning did you do when you first started?
+Anyway where is the php api and functions to get the data from the cms and build the theme?
+do I have to write my custom mysql queries?
+if you've got this much energy to put into a cms or admin, why not work in a more legible and less-dying language like python or ruby?
+Why dont you have real documentation?

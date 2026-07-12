@@ -1,0 +1,26 @@
+provider: nvidia
+models:
+  mistralai/mistral-large-3-675b-instruct-2512:
+    params:
+      invoke_url: https://integrate.api.nvidia.com/v1/chat/completions
+      temperature: 0.15
+      top_p: 1.0
+      max_tokens: 4096
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+      timeout_s: 300.0
+      retry_attempts: 6
+      retry_initial_delay_s: 30.0
+    pricing: {}
+  stepfun-ai/step-3.7-flash:
+    params:
+      invoke_url: https://integrate.api.nvidia.com/v1/chat/completions
+      temperature: 0.0
+      top_p: 1.0
+      max_tokens: 16384
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+      timeout_s: 300.0
+      retry_attempts: 6
+      retry_initial_delay_s: 30.0
+    pricing: {}

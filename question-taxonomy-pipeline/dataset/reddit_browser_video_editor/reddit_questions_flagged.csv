@@ -1,0 +1,94 @@
+﻿"Question_ID","Source_Line_Number","Original_Question","Cleaned_Question","Question_Type","Character_Count","Is_Broken","Is_Non_English","Is_Rhetorical_Or_Sarcastic","Is_Context_Heavy","Author","Upvotes"
+"RQ-00001",63,"do you think it's possible to have the ability to play around and not export until sign up?","do you think it's possible to have the ability to play around and not export until sign up?","Open-Ended",91,"No","No","No","No","Unknown",0
+"RQ-00002",92,"Any plans on open sourcing it on github?","Any plans on open sourcing it on github?","Open-Ended",40,"No","No","No","No","Unknown",0
+"RQ-00003",132,"One mobile so can't test it out, do you have the ability to rotate video as well?","One mobile so can't test it out, do you have the ability to rotate video as well?","Open-Ended",81,"No","No","No","No","Unknown",0
+"RQ-00004",146,"How long have you been working on this?","How long have you been working on this?","Open-Ended",39,"No","No","No","No","Unknown",0
+"RQ-00005",146,"Is all the design from you or did you use a component pack?","Is all the design from you or did you use a component pack?","Y/N",59,"No","No","No","No","Unknown",0
+"RQ-00006",158,"2k 4k options in near future?","2k 4k options in near future?","Open-Ended",29,"No","No","No","No","Unknown",0
+"RQ-00007",171,"Would you consider open-sourcing this?","Would you consider open-sourcing this?","Y/N",38,"No","No","No","No","Unknown",0
+"RQ-00008",188,"Will check this tonight.","Will check this tonight.","Y/N",24,"No","No","No","No","Unknown",0
+"RQ-00009",199,"Does it work on mobile safari browser?","Does it work on mobile safari browser?","Y/N",38,"No","No","No","No","Unknown",0
+"RQ-00010",215,"- I felt like I had enough rope to hang myself with how easy it is to drag around videos up and down to the different layers, maybe having a visual indicator for which layer it is?","- I felt like I had enough rope to hang myself with how easy it is to drag around videos up and down to the different layers, maybe having a visual indicator for which layer it is?","Open-Ended",180,"No","No","No","Yes","Unknown",0
+"RQ-00011",222,"Can’t wait to give this a go.","Can't wait to give this a go.","Y/N",29,"No","No","No","No","Unknown",0
+"RQ-00012",223,"Can I suggest something?","Can I suggest something?","Y/N",24,"No","No","No","No","Unknown",0
+"RQ-00013",235,"How did you build this?","How did you build this?","Open-Ended",23,"No","No","No","No","Unknown",0
+"RQ-00014",235,"Which languages/frameworks/etc?","Which languages/frameworks/etc?","Open-Ended",31,"No","No","No","No","Unknown",0
+"RQ-00015",248,"How is it using web assembly?","How is it using web assembly?","Open-Ended",29,"No","No","No","No","Unknown",0
+"RQ-00016",248,"Also, what tech did you use?","Also, what tech did you use?","Open-Ended",28,"No","No","No","No","Unknown",0
+"RQ-00017",290,"What did you use to make it?","What did you use to make it?","Open-Ended",28,"No","No","No","No","Unknown",0
+"RQ-00018",332,"Also, is this open source?","Also, is this open source?","Open-Ended",26,"No","No","No","No","Unknown",0
+"RQ-00019",354,"Have you any plans on supporting safari?","Have you any plans on supporting safari?","Y/N",40,"No","No","No","No","Unknown",0
+"RQ-00020",426,"Is it open soucre?","Is it open soucre?","Y/N",18,"No","No","No","No","Unknown",0
+"RQ-00021",436,"is there an undo feature?","is there an undo feature?","Y/N",25,"No","No","No","No","Unknown",0
+"RQ-00022",460,"Does it still work?","Does it still work?","Y/N",19,"No","No","No","No","Unknown",0
+"RQ-00023",527,"When you separate an audio track, then add it back into the editor....","When you separate an audio track, then add it back into the editor....","Open-Ended",70,"No","No","No","No","Unknown",0
+"RQ-00024",615,"how to reverse the video","how to reverse the video","Open-Ended",24,"No","No","No","No","Unknown",0
+"RQ-00025",622,"Have a great one.","Have a great one.","Y/N",17,"No","No","No","No","Unknown",0
+"RQ-00026",641,"I'd like to know how it's going for you with what you've made available so far?","I'd like to know how it's going for you with what you've made available so far?","Open-Ended",79,"No","No","No","No","Unknown",0
+"RQ-00027",641,"Are you possibly transitioning to something like that?","Are you possibly transitioning to something like that?","Y/N",54,"No","No","No","No","Unknown",0
+"RQ-00028",657,"How do you change to a resolution that isn't 16:9?","How do you change to a resolution that isn't 16:9?","Open-Ended",50,"No","No","No","No","Unknown",0
+"RQ-00029",681,"I'm guessing this project is dead?","I'm guessing this project is dead?","Open-Ended",34,"No","No","No","No","Unknown",0
+"RQ-00030",683,"Using the zoom dragger is a bit confusing, what do the numbers mean when I zoom out, minutes?","Using the zoom dragger is a bit confusing, what do the numbers mean when I zoom out, minutes?","Open-Ended",93,"No","No","No","No","Unknown",0
+"RQ-00031",686,"Maybe could change when you click on a text (and can only change its position) show one of the move symbols on its box?","Maybe could change when you click on a text (and can only change its position) show one of the move symbols on its box?","Open-Ended",119,"No","No","No","No","Unknown",0
+"RQ-00032",696,"Are you fucking kidding me","Are you fucking kidding me","Y/N",26,"No","No","No","No","Unknown",0
+"RQ-00033",738,"It’s not open source?","It's not open source?","Open-Ended",21,"Yes","No","No","No","Unknown",0
+"RQ-00034",752,"Are you leaning on MEMFS much for this project?","Are you leaning on MEMFS much for this project?","Y/N",47,"No","No","No","No","Unknown",0
+"RQ-00035",772,"Do you have a source for this?","Do you have a source for this?","Y/N",30,"No","No","No","No","Unknown",0
+"RQ-00036",779,"Also, what's up with the account being required?","Also, what's up with the account being required?","Open-Ended",48,"No","No","No","No","Unknown",0
+"RQ-00037",779,"I thought it's all browser-based, so I'm really confused why you would need the users create an account?","I thought it's all browser-based, so I'm really confused why you would need the users create an account?","Open-Ended",104,"No","No","Yes","No","Unknown",0
+"RQ-00038",786,"Also, the 2/4GB is just talking about RAM, correct?","Also, the 2/4GB is just talking about RAM, correct?","Open-Ended",51,"No","No","No","No","Unknown",0
+"RQ-00039",793,"I'm probably not the target audience, but just curious - what's the benefit of a browser based video editor?","I'm probably not the target audience, but just curious - what's the benefit of a browser based video editor?","Open-Ended",108,"No","No","No","No","Unknown",0
+"RQ-00040",793,"Just so you don't need to install an application locally?","Just so you don't need to install an application locally?","Open-Ended",57,"No","No","No","No","Unknown",0
+"RQ-00041",794,"How much is the performance penalty for running it in a browser?","How much is the performance penalty for running it in a browser?","Open-Ended",64,"No","No","No","No","Unknown",0
+"RQ-00042",807,"Hi, why does the website require registration if the videos are processed locally?","Hi, why does the website require registration if the videos are processed locally?","Open-Ended",82,"No","No","No","No","Unknown",0
+"RQ-00043",819,"Hi you sir, awesome project but why cant I render?","Hi you sir, awesome project but why cant I render?","Open-Ended",50,"No","No","No","No","Unknown",0
+"RQ-00044",826,"What sort of computer are you using?","What sort of computer are you using?","Open-Ended",36,"No","No","No","No","Unknown",0
+"RQ-00045",834,"Might be some encoding issues.","Might be some encoding issues.","Y/N",30,"No","No","No","No","Unknown",0
+"RQ-00046",835,"could you share the ffmpeg run commands you ran?","could you share the ffmpeg run commands you ran?","Y/N",48,"No","No","No","No","Unknown",0
+"RQ-00047",842,"How about you share the one that’s not working for your and I’ll try to help with that.","How about you share the one that's not working for your and I'll try to help with that.","Open-Ended",87,"No","No","No","No","Unknown",0
+"RQ-00048",849,"It worked with youtube ,?","It worked with youtube ,?","Open-Ended",25,"No","No","No","No","Unknown",0
+"RQ-00049",856,"Are you asking if Mastershot has a YouTube integration?","Are you asking if Mastershot has a YouTube integration?","Y/N",55,"No","No","No","No","Unknown",0
+"RQ-00050",872,"How do I add a second track?","How do I add a second track?","Open-Ended",28,"No","No","No","No","Unknown",0
+"RQ-00051",891,"WHYYY do I have to register????","WHYYY do I have to register????","Open-Ended",31,"No","No","Yes","No","Unknown",0
+"RQ-00052",912,"API capabilities?","API capabilities?","Open-Ended",17,"Yes","No","No","No","Unknown",0
+"RQ-00053",912,"Ai ready?","Ai ready?","Open-Ended",9,"Yes","No","No","No","Unknown",0
+"RQ-00054",974,"I wanted to ask about the videos if you use one of the videos that are there you pay a fee?","I wanted to ask about the videos if you use one of the videos that are there you pay a fee?","Open-Ended",91,"No","No","No","No","Unknown",0
+"RQ-00055",1027,"Can you add import fonts?","Can you add import fonts?","Y/N",25,"No","No","No","No","Unknown",0
+"RQ-00056",1044,"But when my video clip is rendering, it just goes on (it's currently at 200+%), do you have any plans fixing bugs like this or have you parked the project?","But when my video clip is rendering, it just goes on (it's currently at 200+%), do you have any plans fixing bugs like this or have you parked the project?","Open-Ended",155,"Yes","No","No","No","Unknown",0
+"RQ-00057",1049,"How long did your video take to render?","How long did your video take to render?","Open-Ended",39,"No","No","No","No","Unknown",0
+"RQ-00058",1098,"Hey I know this post is 5 years old but I love this a lot, Do you have any plans to add transitions to it that we can add into a video?","Hey I know this post is 5 years old but I love this a lot, Do you have any plans to add transitions to it that we can add into a video?","Open-Ended",135,"No","No","No","No","Unknown",0
+"RQ-00059",1173,"have you considered running ads to recoup dev and op costs?","have you considered running ads to recoup dev and op costs?","Y/N",59,"No","No","No","No","Unknown",0
+"RQ-00060",1173,"May I ask what the timeline on adding transitions looks like?","May I ask what the timeline on adding transitions looks like?","Y/N",61,"No","No","No","No","Unknown",0
+"RQ-00061",1191,"Does every website have to be made for mobile?","Does every website have to be made for mobile?","Y/N",46,"No","No","No","No","Unknown",0
+"RQ-00062",1191,"Even for video editing?","Even for video editing?","Open-Ended",23,"Yes","No","No","No","Unknown",0
+"RQ-00063",1191,"And why would you require logging in?","And why would you require logging in?","Open-Ended",37,"Yes","No","No","No","Unknown",0
+"RQ-00064",1209,"What type of computer are you working on?","What type of computer are you working on?","Open-Ended",41,"No","No","No","No","Unknown",0
+"RQ-00065",1238,"Does the sound come back if you refresh the page?","Does the sound come back if you refresh the page?","Y/N",49,"No","No","No","No","Unknown",0
+"RQ-00066",1245,"Is this still active?","Is this still active?","Y/N",21,"No","No","No","No","Unknown",0
+"RQ-00067",1257,"i just spent a good 4 hours editing a video and its not rendering can you help?","i just spent a good 4 hours editing a video and its not rendering can you help?","Open-Ended",79,"No","No","No","No","Unknown",0
+"RQ-00068",1264,"What browser are you using?","What browser are you using?","Open-Ended",27,"No","No","No","No","Unknown",0
+"RQ-00069",1270,"You got a github for it?","You got a github for it?","Open-Ended",24,"No","No","No","No","Unknown",0
+"RQ-00070",1283,"ALSO, the text is invisible??","ALSO, the text is invisible??","Open-Ended",29,"No","No","Yes","No","Unknown",0
+"RQ-00071",1310,"Are you considering adding voice/audio recording function?","Are you considering adding voice/audio recording function?","Y/N",58,"No","No","No","No","Unknown",0
+"RQ-00072",1332,"When adding text on a video, any text added after a colon “:” will be invisible.","When adding text on a video, any text added after a colon "":"" will be invisible.","Open-Ended",80,"No","No","No","No","Unknown",0
+"RQ-00073",1344,"did you solve it?","did you solve it?","Y/N",17,"No","No","No","No","Unknown",0
+"RQ-00074",1350,"did you solve it now?","did you solve it now?","Y/N",21,"No","No","No","No","Unknown",0
+"RQ-00075",1357,"how can I achieve that.","how can I achieve that.","Open-Ended",23,"No","No","No","No","Unknown",0
+"RQ-00076",1363,"Anyone got the same problem?","Anyone got the same problem?","Open-Ended",28,"No","No","No","No","Unknown",0
+"RQ-00077",1368,"This post is so old, I'm commenting so late, but can anyone teach me how to create multiple tracks?","This post is so old, I'm commenting so late, but can anyone teach me how to create multiple tracks?","Open-Ended",99,"No","No","No","No","Unknown",0
+"RQ-00078",1373,"Ok it looks like you just set things on top of each other, no ""tracks""?","Ok it looks like you just set things on top of each other, no ""tracks""?","Open-Ended",71,"No","No","No","No","Unknown",0
+"RQ-00079",1373,"Had a lot of fun with it.","Had a lot of fun with it.","Y/N",25,"No","No","No","No","Unknown",0
+"RQ-00080",1384,"Would probably still use it for a 10 second clip though.","Would probably still use it for a 10 second clip though.","Y/N",56,"No","No","No","No","Unknown",0
+"RQ-00081",1406,"hey, my rendering is forever stuck at 0%, any solutions for that?","hey, my rendering is forever stuck at 0%, any solutions for that?","Open-Ended",65,"No","No","No","No","Unknown",0
+"RQ-00082",1445,"When I export a video that has images overlayed in the video the overlayed images don’t show up.","When I export a video that has images overlayed in the video the overlayed images don't show up.","Open-Ended",96,"No","No","No","No","Unknown",0
+"RQ-00083",1445,"Am I doing something wrong?","Am I doing something wrong?","Open-Ended",27,"No","No","No","No","Unknown",0
+"RQ-00084",1462,"Rendering percentage is stuck at 0, all i did was add a black background to a 30 second audio file, anything I can do?","Rendering percentage is stuck at 0, all i did was add a black background to a 30 second audio file, anything I can do?","Open-Ended",118,"No","No","No","No","Unknown",0
+"RQ-00085",1505,"- no snapping clips!?","- no snapping clips!?","Open-Ended",21,"Yes","No","Yes","No","Unknown",0
+"RQ-00086",1507,"- can't crop videos!!!","- can't crop videos!!!","Open-Ended",22,"Yes","No","Yes","No","Unknown",0
+"RQ-00087",1510,"- when text is copied, it's font size doesn't copy across","- when text is copied, it's font size doesn't copy across","Open-Ended",57,"No","No","No","No","Unknown",0
+"RQ-00088",1533,"Is there a fix for that ?","Is there a fix for that ?","Y/N",25,"No","No","No","No","Unknown",0
+"RQ-00089",1554,"Why isn't there 4k-8k??","Why isn't there 4k-8k??","Open-Ended",23,"No","No","Yes","No","Unknown",0
+"RQ-00090",1554,"Can you add that at all?","Can you add that at all?","Y/N",24,"No","No","No","No","Unknown",0
+"RQ-00091",1571,"Can I ask you a few questions in dms?","Can I ask you a few questions in dms?","Y/N",37,"No","No","No","No","Unknown",0
+"RQ-00092",1588,"When I tried to render my video half the text was missing and covering the entire screen.","When I tried to render my video half the text was missing and covering the entire screen.","Open-Ended",89,"No","No","No","No","Unknown",0
+"RQ-00093",1600,"What device/browser are you using?","What device/browser are you using?","Open-Ended",34,"No","No","No","No","Unknown",0

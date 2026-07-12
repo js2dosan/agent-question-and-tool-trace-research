@@ -1,0 +1,67 @@
+do you think it's possible to have the ability to play around and not export until sign up?
+Any plans on open sourcing it on github?
+One mobile so can't test it out, do you have the ability to rotate video as well?
+How long have you been working on this?
+Is all the design from you or did you use a component pack?
+2k 4k options in near future?
+Would you consider open-sourcing this?
+Does it work on mobile safari browser?
+Can I suggest something?
+How did you build this?
+Which languages/frameworks/etc?
+How is it using web assembly?
+Also, what tech did you use?
+What did you use to make it?
+Also, is this open source?
+Have you any plans on supporting safari?
+Is it open soucre?
+is there an undo feature?
+Does it still work?
+how to reverse the video
+I'd like to know how it's going for you with what you've made available so far?
+Are you possibly transitioning to something like that?
+How do you change to a resolution that isn't 16:9?
+I'm guessing this project is dead?
+Using the zoom dragger is a bit confusing, what do the numbers mean when I zoom out, minutes?
+Maybe could change when you click on a text (and can only change its position) show one of the move symbols on its box?
+Are you leaning on MEMFS much for this project?
+Do you have a source for this?
+Also, what's up with the account being required?
+Also, the 2/4GB is just talking about RAM, correct?
+I'm probably not the target audience, but just curious - what's the benefit of a browser based video editor?
+Just so you don't need to install an application locally?
+How much is the performance penalty for running it in a browser?
+Hi, why does the website require registration if the videos are processed locally?
+Hi you sir, awesome project but why cant I render?
+What sort of computer are you using?
+could you share the ffmpeg run commands you ran?
+It worked with youtube ,?
+Are you asking if Mastershot has a YouTube integration?
+How do I add a second track?
+I wanted to ask about the videos if you use one of the videos that are there you pay a fee?
+Can you add import fonts?
+How long did your video take to render?
+Hey I know this post is 5 years old but I love this a lot, Do you have any plans to add transitions to it that we can add into a video?
+have you considered running ads to recoup dev and op costs?
+May I ask what the timeline on adding transitions looks like?
+Does every website have to be made for mobile?
+What type of computer are you working on?
+Does the sound come back if you refresh the page?
+Is this still active?
+i just spent a good 4 hours editing a video and its not rendering can you help?
+What browser are you using?
+You got a github for it?
+Are you considering adding voice/audio recording function?
+did you solve it?
+did you solve it now?
+how can I achieve that.
+Anyone got the same problem?
+This post is so old, I'm commenting so late, but can anyone teach me how to create multiple tracks?
+Ok it looks like you just set things on top of each other, no "tracks"?
+hey, my rendering is forever stuck at 0%, any solutions for that?
+Am I doing something wrong?
+Rendering percentage is stuck at 0, all i did was add a black background to a 30 second audio file, anything I can do?
+Is there a fix for that ?
+Can you add that at all?
+Can I ask you a few questions in dms?
+What device/browser are you using?

@@ -1,0 +1,48 @@
+﻿"Question_ID","Source_Line_Number","Original_Question","Cleaned_Question","Question_Type","Character_Count","Author","Upvotes"
+"CMSRQ-00001",6,"Does Reddit have any feedback?","Does Reddit have any feedback?","Y/N",30,"Unknown",0
+"CMSRQ-00002",32,"Where can I report bugs?","Where can I report bugs?","Open-Ended",24,"Unknown",0
+"CMSRQ-00003",34,"EDIT2: Dear author, are you online?","EDIT2: Dear author, are you online?","Open-Ended",35,"Unknown",0
+"CMSRQ-00004",67,"We're still using md5?","We're still using md5?","Open-Ended",22,"Unknown",0
+"CMSRQ-00006",78,"Might I ask why you don't like globals?","Might I ask why you don't like globals?","Y/N",39,"Unknown",0
+"CMSRQ-00007",81,"Are there any drawbacks to the method you described?","Are there any drawbacks to the method you described?","Y/N",52,"Unknown",0
+"CMSRQ-00008",88,"Why did you build this?","Why did you build this?","Open-Ended",23,"Unknown",0
+"CMSRQ-00009",88,"Will you make a profit from it in some way?","Will you make a profit from it in some way?","Y/N",43,"Unknown",0
+"CMSRQ-00010",88,"If you won't profit from it what were your motivations to do this?","If you won't profit from it what were your motivations to do this?","Open-Ended",66,"Unknown",0
+"CMSRQ-00011",109,"How to create a new ""page""","How to create a new ""page""","Open-Ended",26,"Unknown",0
+"CMSRQ-00012",110,"How to create site navigation","How to create site navigation","Open-Ended",29,"Unknown",0
+"CMSRQ-00013",111,"How do I create/upload a custom theme","How do I create/upload a custom theme","Open-Ended",37,"Unknown",0
+"CMSRQ-00014",112,"Do plugins/custom modules exist for extended functionality","Do plugins/custom modules exist for extended functionality","Y/N",58,"Unknown",0
+"CMSRQ-00015",158,"How certain are you of the security?","How certain are you of the security?","Open-Ended",36,"Unknown",0
+"CMSRQ-00016",159,"Have you submitted it to be hacked by any experts?","Have you submitted it to be hacked by any experts?","Y/N",50,"Unknown",0
+"CMSRQ-00018",168,"Can't say I'm too certain right now.","Can't say I'm too certain right now.","Y/N",36,"Unknown",0
+"CMSRQ-00019",181,"Why are you making an asynchronous call to a PHP script to generate a simple div with your alert in it?","Why are you making an asynchronous call to a PHP script to generate a simple div with your alert in it?","Open-Ended",103,"Unknown",0
+"CMSRQ-00020",181,"Why not do it directly in JavaScript?","Why not do it directly in JavaScript?","Open-Ended",37,"Unknown",0
+"CMSRQ-00021",183,"Does that option even do anything?","Does that option even do anything?","Y/N",34,"Unknown",0
+"CMSRQ-00022",187,"EDIT: I see there is this functionality, but it seems only for textual columns?","EDIT: I see there is this functionality, but it seems only for textual columns?","Open-Ended",79,"Unknown",0
+"CMSRQ-00023",220,"Will check it out more in depth soon.","Will check it out more in depth soon.","Y/N",37,"Unknown",0
+"CMSRQ-00024",242,"which I think is reasonable.","which I think is reasonable.","Open-Ended",28,"Unknown",0
+"CMSRQ-00025",286,"Can someone explain what this does?","Can someone explain what this does?","Y/N",35,"Unknown",0
+"CMSRQ-00027",294,"Would be interesting to know what made you make that design decision.","Would be interesting to know what made you make that design decision.","Y/N",69,"Unknown",0
+"CMSRQ-00028",298,"Also, I'd be interested to know, is this your first proper application?","Also, I'd be interested to know, is this your first proper application?","Open-Ended",71,"Unknown",0
+"CMSRQ-00029",298,"Great to be ambitious and all that, but learning to program on one huge project spanning several years?","Great to be ambitious and all that, but learning to program on one huge project spanning several years?","Open-Ended",103,"Unknown",0
+"CMSRQ-00030",298,"Got any other, smaller, more manageable projects we can see?","Got any other, smaller, more manageable projects we can see?","Open-Ended",60,"Unknown",0
+"CMSRQ-00032",322,"does your server meet the requirements?","does your server meet the requirements?","Y/N",39,"Unknown",0
+"CMSRQ-00033",322,"It sounds like a potential htaccess issue?","It sounds like a potential htaccess issue?","Open-Ended",42,"Unknown",0
+"CMSRQ-00034",342,"Does the installation create a DB?","Does the installation create a DB?","Y/N",34,"Unknown",0
+"CMSRQ-00035",381,"What kind of progress did you make?","What kind of progress did you make?","Open-Ended",35,"Unknown",0
+"CMSRQ-00037",414,"What is its killer feature?","What is its killer feature?","Open-Ended",27,"Unknown",0
+"CMSRQ-00038",414,"For which type of website will this CMS be the undisputed best choice?","For which type of website will this CMS be the undisputed best choice?","Open-Ended",70,"Unknown",0
+"CMSRQ-00039",420,"which could be an advantage or disadvantage depending on your site/project.","which could be an advantage or disadvantage depending on your site/project.","Open-Ended",75,"Unknown",0
+"CMSRQ-00040",444,"Wouldn't be nicer if the revert was just loading the previous version in the form without actually doing the revert?","Wouldn't be nicer if the revert was just loading the previous version in the form without actually doing the revert?","Y/N",116,"Unknown",0
+"CMSRQ-00041",462,"I like your logo, how did you make it?","I like your logo, how did you make it?","Open-Ended",38,"Unknown",0
+"CMSRQ-00042",479,"Alright, who hacked the site?","Alright, who hacked the site?","Open-Ended",29,"Unknown",0
+"CMSRQ-00043",491,"What made you decide to release it as open source rather than a commercial product?","What made you decide to release it as open source rather than a commercial product?","Open-Ended",83,"Unknown",0
+"CMSRQ-00044",506,"why are you turning off etags in the htaccess?","why are you turning off etags in the htaccess?","Open-Ended",46,"Unknown",0
+"CMSRQ-00045",506,"why not reply on etags, last-modified and expires?","why not reply on etags, last-modified and expires?","Open-Ended",50,"Unknown",0
+"CMSRQ-00046",512,"Does that make sense?","Does that make sense?","Y/N",21,"Unknown",0
+"CMSRQ-00047",520,"What is the biggest lesson(s) you have learnt whilst building this?","What is the biggest lesson(s) you have learnt whilst building this?","Open-Ended",67,"Unknown",0
+"CMSRQ-00048",521,"How much planning did you do when you first started?","How much planning did you do when you first started?","Open-Ended",52,"Unknown",0
+"CMSRQ-00049",543,"Anyway where is the php api and functions to get the data from the cms and build the theme?","Anyway where is the php api and functions to get the data from the cms and build the theme?","Open-Ended",91,"Unknown",0
+"CMSRQ-00050",543,"do I have to write my custom mysql queries?","do I have to write my custom mysql queries?","Y/N",43,"Unknown",0
+"CMSRQ-00051",587,"if you've got this much energy to put into a cms or admin, why not work in a more legible and less-dying language like python or ruby?","if you've got this much energy to put into a cms or admin, why not work in a more legible and less-dying language like python or ruby?","Open-Ended",134,"Unknown",0
+"CMSRQ-00054",602,"Why dont you have real documentation?","Why dont you have real documentation?","Open-Ended",37,"Unknown",0

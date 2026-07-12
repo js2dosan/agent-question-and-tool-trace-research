@@ -1,0 +1,8 @@
+Classify each question with Eris' taxonomy.
+
+Labels:
+- LLQ: factual, clarification, definition, property, quantity, comparison, yes/no, judgment.
+- DRQ: explanation, interpretation, cause/effect, rationale, mechanism, procedure.
+- GDQ: design ideas, proposals, methods, scenarios, possibilities.
+
+Return only JSON. No reasoning. No markdown.

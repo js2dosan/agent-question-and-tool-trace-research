@@ -1,0 +1,655 @@
+body,author,upvotes
+Go to webdev,Unknown,0
+r/webdev,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+[deleted],Unknown,0
+I've spent the past 6 years developing a CMS in my free time... just released it free/open-source. Does Reddit have any feedback?,Unknown,0
+271,Unknown,0
+·,Unknown,0
+286,Unknown,0
+Comments Section,Unknown,0
+azmerod,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"First, ALWAYS include a live demo. I do not want to download and install your software if I can't even try it out online first.",Unknown,0
+67,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Excellent, thank you for the advice. I actually have a live demo but since the CMS has a lot of functions that could be abused (database backups, media uploads, anything in the admin section) I didn't make it public. Until I can get a cron job to wipe the content hourly it'll have to be request only. I would also like to have a dummy site to see how the changes are reflected.",Unknown,0
+But for r/webdev's feedback I will gladly allow access (be nice please):,Unknown,0
+http://demo.getdirectus.com/cms/,Unknown,0
+guest@example.com,Unknown,0
+guest,Unknown,0
+"Edit 1: I have written a cron job that runs every hour. It will reset the items within the CMS, delete any added media (except 3 demo items) and update the guest user account to the original credentials listed above. Hope that helps with the trollin' until I have a more robust solution.",Unknown,0
+"Edit 2: And we have discovered the reason for no live demo! I was aware of the huge internal security hole (I pointed it out in one of the comments below) within the media section. I wanted Reddit to be able to see/test the media upload feature of Directus... but obviously being able to upload files to the server relatively unchecked isn't a good idea. I have taken down the live demo for now... I will put it back up soon once I have resolved that security concern. The main idea here is that Directus, while hardened on the outside, gives perhaps too much freedom once inside. Sorry for the lack of access to the site... bear with me as I change all my passwords and sift through my files to ensure nothing malicious lingers. I am thankful for the heads up though as I am looking to squash any issues like these while this is still a newly released product.",Unknown,0
+Edit 3: Forum now available http://forum.getdirectus.com/ ... sorry it is stark empty at the moment but hopefully we can fill it up pretty quickly. This way I can answer questions fewer times and it should be easier for other to find answers. I will redo the style of the forum at another time... but this is functional for now.,Unknown,0
+22,Unknown,0
+simoncpu,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Where can I report bugs? Please check the inbox before it gets deleted by cron. I was able to insert JavaScript code... It can be used to steal cookies or redirect the user to goatse hehe...,Unknown,0
+EDIT: Here's the screenshot: http://i.imgur.com/k65gZ.png,Unknown,0
+"EDIT2: Dear author, are you online? I've just infiltrated your web server. You are in danger of being rooted by bad guys:",Unknown,0
+[deleted for safety],Unknown,0
+p.s.: My alignment is chaotic good. Hehe...,Unknown,0
+EDIT3: I've just defaced your website. I hope you'll forgive me. I'm just doing a free QA:,Unknown,0
+http://i.imgur.com/NPjr3.png,Unknown,0
+EDIT4: Holy Batman! Please take this demo offline! I can deface all of your websites:,Unknown,0
+[deleted for safety],Unknown,0
+EDIT5: I can't open a Support Ticket to Media Temple. I need an account...,Unknown,0
+http://imgur.com/a/VfUsg,Unknown,0
+35,Unknown,0
+18 more replies,Unknown,0
+u/jonatcer avatar,Unknown,0
+jonatcer,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Just tested it out in Opera, and it works fine - may want to fix the ""Recommended browsers"" error ;)",Unknown,0
+12,Unknown,0
+2 more replies,Unknown,0
+u/ironsolomon avatar,Unknown,0
+ironsolomon,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Not working for me. I get ""Email incorrect: guest@example.com"" when I try to log in.",Unknown,0
+10,Unknown,0
+3 more replies,Unknown,0
+46 more replies,Unknown,0
+19 more replies,Unknown,0
+deeebug,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Just a few things I noticed:,Unknown,0
+I kind of wish there was a separation of html from the PHP code.,Unknown,0
+"global $dbh; makes me sad :( (globals in general makes me sad, heh)",Unknown,0
+"We're still using md5? Use bcrypt, or even SHA1. I'm not 100% sure if you can use crypt() for PHP 5.1, but if you can not, use PHPass for compatibility.",Unknown,0
+"No OOP? Not a deal breaker, but eh...",Unknown,0
+"To make a secure 'remember me' solution, you shouldn't store the user's encrypted password in a cookie. Hell, you shouldn't at all store any type of password. I recommend generating a unique token for the remember me cookie, storing it, then invalidating it once it is used.",Unknown,0
+edit: also x-post to r/php so you will have more eyes checking the code.,Unknown,0
+14,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Thank you, these are all very helpful. I was a designer before a developer... and am mostly self-taught (something that plagues my coding mindset) so with this release I am looking to learn a lot and refactor version 6.",Unknown,0
+"The separation of html and php would be nice, but is large enough where it would need to be handled under the next full version.",Unknown,0
+Might I ask why you don't like globals? Especially for database connection.,Unknown,0
+I will have to look into more advanced encryption than MD5... thanks for the recommendations.,Unknown,0
+"Again, being self-taught has hindered me a bit. I have always been a bit more procedural I guess. But I see why OOP could be preferred",Unknown,0
+"Are there any drawbacks to the method you described? The salted, encrypted password seemed like a good route...",Unknown,0
+"Thanks again, I will x-post this to r/php... although I am struggling to keep up with comments here ;)",Unknown,0
+4,Unknown,0
+9 more replies,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Why did you build this? Will you make a profit from it in some way? I wouldn't build something this large unless I'd profit from it. If you won't profit from it what were your motivations to do this? Just genuinely curious. The site looks nice!,Unknown,0
+2,Unknown,0
+4 more replies,Unknown,0
+u/tyom avatar,Unknown,0
+tyom,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Very interesting. Put it on GitHub.,Unknown,0
+29,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Seconded. If it were up on Github, I'd volunteer a code review.",Unknown,0
+5,Unknown,0
+5 more replies,Unknown,0
+1 more reply,Unknown,0
+azmerod,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"I like the look of it but I'm curious about the functionality. After working with several CMS's over the years I'm not at all sure what ""Tables"" are in yours or how you actually build and put together a complete site.",Unknown,0
+It seems you need to really go through some use cases of what new users will be looking to do:,Unknown,0
+"How to create a new ""page""",Unknown,0
+How to create site navigation,Unknown,0
+How do I create/upload a custom theme,Unknown,0
+Do plugins/custom modules exist for extended functionality,Unknown,0
+Those are the types of things I'm looking for in a CMS when I try it out. If I can't easily find out how the above items work I simply move on to another CMS.,Unknown,0
+16,Unknown,0
+Cintax,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"This. Playing around in the admin panel, it looks nice, but ""Tables"" is a poor name for that tab as it's unclear unless you're a programmer basically.",Unknown,0
+"And though I see the About page, Projects content type, etc (I like the slideshow functionality fyi), it's unclear how/if you can add new custom data types like Projects, or custom pages like About.",Unknown,0
+"Also, I get a 403 Forbidden when I try to access the front of the demo site to see changes/resulting code.",Unknown,0
+"PS - Use this for the ""Ranger"" branding on the top of the Directus homepage:",Unknown,0
+http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/,Unknown,0
+-OCD front end dev,Unknown,0
+8,Unknown,0
+8 more replies,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+That's great advice. I just made those first two screencasts last week... I want to make a few more this week. I think the main issue is explaining exactly what you've mentioned since Directus does things quite differently.,Unknown,0
+Directus doesn't actually have themes or a front-end tied in. It's more of a database management tool for websites. This allows you to organize the database however you see fit for any given website. Tables typically directly relate to a single site page... but a page could also pull data from many tables if the design called for it.,Unknown,0
+As you can see it is a different way of thinking of a CMS entirely. One that gives you endless possibilities... but that needs to be explained correctly for people to understand it's potential. Hopefully the new screencasts will help out with this! :),Unknown,0
+5,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+12,Unknown,0
+8 more replies,Unknown,0
+1 more reply,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+I hate seeing things I've thought about doing actually done. :(,Unknown,0
+"By that I mean someone dreaming up and completing a full piece of software, even if it takes a while. I need to do this. :(",Unknown,0
+Nice work though. Aesthetically pleasing site.,Unknown,0
+2,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+I have been worried about the same thing for years now... that someone would one day just release exactly what I had been working on here. I kept thinking I should just release it... but I'm a bit anal about not releasing software before it's ready.,Unknown,0
+2,Unknown,0
+2 more replies,Unknown,0
+u/GAMEchief avatar,Unknown,0
+GAMEchief,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+How certain are you of the security? It is probably the largest reason people don't jump on the bandwidth of new software.,Unknown,0
+Have you submitted it to be hacked by any experts?,Unknown,0
+"Also, I am asking one of my employers if they want me to write up a tutorial for how to use your software. Maybe include features that make it superior to its competitors. If they do, it should get you a little bit of publicity.",Unknown,0
+"Also, if they do, if you want to also turn it into an interview deal, that can maybe be arranged as well?",Unknown,0
+11,Unknown,0
+u/Cueball61 avatar,Unknown,0
+Cueball61,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Greetz from Reddit... fvzbapch jnf urer,Unknown,0
+Can't say I'm too certain right now.,Unknown,0
+4,Unknown,0
+3 more replies,Unknown,0
+17 more replies,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"I apparently do not have some Apache modules enabled that you use (specifically whatever provides the Header, ExpiresActive and ExpiresDefault directives). You should probably wrap non-required modules like that in an IfModule block. (It's not optimal, but the application still works without those directives.)",Unknown,0
+Needed to turn down error reporting to get through the installation as the entire thing a'sploded with it turned up. Sucks for trying to develop on.,Unknown,0
+This is a tool for developers. Don't try and force a minimum length on my password.,Unknown,0
+The built-in messaging system seems a bit superfluous.,Unknown,0
+Your news feed links to http://getdirectus.com/plugins/ which is a broken link.,Unknown,0
+"The installation said my filesystem was all setup, but so far I've found that I both needed to add write permissions to inc and create and add write permissions to media/files/ a folder up from the application's root. (Kind of unexpected.)",Unknown,0
+Why are you making an asynchronous call to a PHP script to generate a simple div with your alert in it? Why not do it directly in JavaScript?,Unknown,0
+"I became concerned after a mention of a restricted character set for the password in your documentation and started digging into login.php. This code is a mess... If you've got conditionals nested 10 deep, you need to restructure the code. Errors and vulnerabilities will creep into this if there aren't any already - it's simply too complex to maintain.",Unknown,0
+I set the table prefix to 'd_'. That's what is in the configuration file. All of my tables are named with 'directus_'. Does that option even do anything?,Unknown,0
+Your passwords are stored in plain text. That's completely untenable.,Unknown,0
+Your 'remember me' function should not be saving the user's password in a cookie (even salted). Generate a token on your end and save that. You also shouldn't be using MD5 for passwords.,Unknown,0
+"I can't be arsed to go through the setup/security/login stuff line-by-line, but there's so much going on I'd be willing to be on there being at least some sort of vulnerability present.",Unknown,0
+"I really like the UI, but it seems to come up lacking otherwise. Would be neat if you could point fields to another table to, for example, have a 'Parent' column on the 'Pages' table a selectable dropdown of all the Pages, instead of manually entering an Id. EDIT: I see there is this functionality, but it seems only for textual columns?",Unknown,0
+8,Unknown,0
+2 more replies,Unknown,0
+celtric,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Just a personal a opinion, but the code looks like a bit of a mess. There's PHP mixed with HTML everywhere, and it's full of conditionals, some of which are even a few hundred lines long.",Unknown,0
+I really like the UI though. Looks very professional.,Unknown,0
+7,Unknown,0
+13 more replies,Unknown,0
+russellbeattie,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Unbelievable! I've been looking for something exactly like this for my work - a simple and clean CMS for internal projects. All the other options I've seen out there are pretty old, or are based on Drupal and insanely bloated. I can't wait to try this out! My only feedback from watching the screencast is to suggest adding in basic SQL table creation/editing functionality right in - it'd be nice for 'power users' to be able to adjust the fields without touching the db. Man, I hope this is as good as it looks, I was about to break down and start using Sharepoint. (Seriously.)",Unknown,0
+5,Unknown,0
+6 more replies,Unknown,0
+u/patricksonion avatar,Unknown,0
+patricksonion,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+I'm getting server error 500,Unknown,0
+3,Unknown,0
+3 more replies,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Initial impressions of the demo site seem quite nice although there are some parts where I feel could be improved although they might be included with the Admin account so I will see tomorrow when I give it a full installation.,Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+u/ryangiglio avatar,Unknown,0
+ryangiglio,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"From my brief look at the site, this looks really cool and definitely something I might want to use. Will check it out more in depth soon.",Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+u/strategicdeceiver avatar,Unknown,0
+strategicdeceiver,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"I'm really digging it, Looks like a more customization version of what I built to use myself. I have a few ideas, but I need a few days with it before I write up my feedback.",Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+u/mikemcg avatar,Unknown,0
+mikemcg,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+I have two password gripes so far:,Unknown,0
+"Let me make dumb passwords, please.",Unknown,0
+"It's probably a bad idea to display the entered password on failed attempts. It's a pretty clever idea, but make it a ""click to reveal"" type deal, as I wouldn't want a passerby to see ""I'm saper good looking"" and realize that my password is ""I'm super good looking"".",Unknown,0
+2,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Done. ;) Take a look at the new version described on this Reddit post for more info. The only limit I'm imposing now is at least 3 chars... which I think is reasonable.,Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+3 more replies,Unknown,0
+Zamiatarka,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"On my ubuntu box, I was missing some required apache2 modules. Here's how I installed them:",Unknown,0
+sudo a2enmod headers,Unknown,0
+sudo a2enmod expires,Unknown,0
+(These things should be clearly stated in the docs.),Unknown,0
+"After the page finally ran, it kept giving a lot of notices like this:",Unknown,0
+PHP Notice:  Undefined index: terms in /var/www/directus/install.php on line 123,Unknown,0
+PHP Notice:  Undefined index: terms in /var/www/directus/install.php on line 711,Unknown,0
+PHP Notice:  Undefined index: terms in /var/www/directus/install.php on line 715,Unknown,0
+The same notices were also visible on the install page.,Unknown,0
+"None of the requirements were met on my machine, so I had to dig up the things I needed to install:",Unknown,0
+mysql-server,Unknown,0
+php5-mysql,Unknown,0
+php5-gd,Unknown,0
+php5-curl,Unknown,0
+(This should also be stated somewhere.),Unknown,0
+"When I got to the database setup screen, there were even more notices about undefined indices, and the page wasn't exactly readable (xdebug makes my error messages very verbose and colorful). Decided to manually turn off error_reporting at this point.",Unknown,0
+"For some reason my mysql settings wouldn't work or directus just ""couldn't connect to server"". The link to the help docs also went nowhere, and this is where I gave up.",Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+u/PressedWeb avatar,Unknown,0
+PressedWeb,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+It's beautiful. I'd love it if you didn't have to do so much SQL'ing and if there was a screencast about how to get data into the frontend. Otherwise it's pretty neat.,Unknown,0
+Really great design.,Unknown,0
+2,Unknown,0
+4 more replies,Unknown,0
+u/sandollars avatar,Unknown,0
+sandollars,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"As an idea for differentiating your CMS from the 1001 other ones out there, how about this:",Unknown,0
+Make it generate and export static HTML files for the frontend.,Unknown,0
+2,Unknown,0
+jonglefever,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Can someone explain what this does? I have no idea what the purpose of this is...,Unknown,0
+2,Unknown,0
+2 more replies,Unknown,0
+Xlator,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Apart from the missing modules, plain-text passwords and generally messy code others have mentioned, I would say that you need to use more functions, make them shorter (I saw one, generate_fields(), that was 454 lines long and seemed to contain mostly conditional statements and HTML), and make them smarter. A programmer writing functions should subscribe to the UNIX philosophy of do one thing (per function) and do it well. Don't obfuscate your code for the sake of brevity, but be sensible and use stuff like looping and recursion when needed. Also, templating. Either develop your own system, or use an existing one. You'll lose a shitload of HTML, and you'll feel better for it.",Unknown,0
+"The first few files I looked through (stuff in the root, basically trying to follow the path of the installation and setup of the application from what I saw on the screencasts, haven't tried installing yet), I couldn't find any custom functions at all, it looked like a load of conditionals and HTML mostly. Messy and unreadable.",Unknown,0
+"As for database design (having only seen the screencasts before checking out the code), what is the rationale for using an entire table (with one row) for each special single page? Seems to defeat the whole object of tables and databases. Would be interesting to know what made you make that design decision. I would argue that you should never let an application modify database structure in any way, but only read and write data. To my knowledge, most CMSs that allow custom fields store them serialized in a fixed number of fields (but don't quote me on that).",Unknown,0
+"I developed my own CMS five years ago with a friend to replace a pre-built (and awful) CMS which we had running on a website we managed. On the whole, it turned out more flexible and easier to manage, but probably a lot worse than the original, code wise. Certainly as hard to maintain, despite the fact that we knew it inside out. Consider the next guy who has to maintain your code.",Unknown,0
+"I don't think we used ANY custom functions in our code, but it was still a lot less verbose than yours, and certainly didn't take six years to develop, maybe six to eight months. Fairly feature rich, though devoid of JavaScript. Bloody awful code though, in hindsight. We've both come a long way since then.",Unknown,0
+"I developed a small reddit clone in PHP in about three weeks in order to gain admission to the university web development course I am currently attending. It is most emphatically NOT a CMS, nor is it perfect code in any way, but it illustrates my thoughts on code structure, templating and the function of functions (hah), so if you're interested, it's on github. (No, I didn't make up the name, it was the name of the assignment and I couldn't think of a better one)",Unknown,0
+"Also, I'd be interested to know, is this your first proper application? If it is, you're doing it wrong IMO. Great to be ambitious and all that, but learning to program on one huge project spanning several years? Bad idea. If not... apologies. Got any other, smaller, more manageable projects we can see?",Unknown,0
+"EDIT: Took a closer look at your table structure. I don't think you should be storing the password and salt separately. Concatenate them and store them in one field. Makes life harder for the attacker at no cost to you. Also, you should probably be storing and comparing session ids - as in the output of session_id(). Unless you have some other method of protecting your sessions that I'm not aware of, if I manage to steal your cookie, I can do everything you can without having to log in first. Not good.",Unknown,0
+2,Unknown,0
+2 more replies,Unknown,0
+simoncpu,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Free QA! Hehehe,Unknown,0
+"I've just messed up your inbox with ""simoncpu was here"". Imagine the possibilities... hint hint",Unknown,0
+2,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Comment deleted by user,Unknown,0
+1 more reply,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Looks good. I've tried uploaded the folder to my host (WebFaction) though it doesn't publicly show the folder (It's in a folder I've called dev/ that has different CMS installs) and when I use a direct link (dev/directus/) it gives a '500 - Internal server error'. Any idea?,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Not sure what is happening with your specific install... does your server meet the requirements? It sounds like a potential htaccess issue?,Unknown,0
+1,Unknown,0
+1 more reply,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Looks good, I'm building one for fun right now.",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+That's awesome... definitely let me know if you have any feedback. Hope you like it!,Unknown,0
+1,Unknown,0
+u/tonybaldwin avatar,Unknown,0
+tonybaldwin,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Looks interesting.,Unknown,0
+"I'd suggest suggestions on your site indicate for what purposes Directus is particularly suited (news sites, company sites, community sites, all/none of the above). As people install and use it, a showcase page, listing sites where it is in good use.",Unknown,0
+"Does the installation create a DB? the install.txt doesn't say to make one, first. (I'll play later).",Unknown,0
+"Now you need to make a community site for Directus, with forums/wiki, whatever, so people will share tips and themes, plugins, and stuff, and even contribute to the further development of it, like joomla, drupal, etc., all have.",Unknown,0
+"Probably putting it up on github is a good idea, so people can fork it. Also, my experience (especially with friendica and statusnet) is that updating a site from github (or gitorious, etc., for that matter) is so easy.",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Wow, just getting into GitHub now... very amazing. It's now on GitHub... any help is greatly appreciated!",Unknown,0
+2,Unknown,0
+3 more replies,Unknown,0
+OttawaMarcin,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Needs a theme folder,Unknown,0
+Needs to auto-convert user_id/author like it does with sort/active,Unknown,0
+"Needs a UI for adding/editing table in the admin area, instead of using SQL program",Unknown,0
+1,Unknown,0
+u/MattDanger avatar,Unknown,0
+MattDanger,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+I really like the UI. Nice work!,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Thanks!,Unknown,0
+1,Unknown,0
+zombierobotvampire,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"So I came across this and for funsies I am installing it on my Cloud Sites account, want to see if it will run in this environment first. If I hit any snags I will migrate if over to my Cloud Server where I have root level access on the server. However, if this CMS is functional in the Cloud Sites platform, that could be a notable feature. Currently this platform is dominated by the Wordpress, Joomla, Drupal trio. I am curious to see how this pans out. It's starting to get late, so I will most likely continue on this in the 'morrow. Look forward to seeing what you've created here!",Unknown,0
+1,Unknown,0
+u/Akael avatar,Unknown,0
+Akael,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+What kind of progress did you make?,Unknown,0
+1,Unknown,0
+2 more replies,Unknown,0
+Vusys,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"I installed this on my local server to have a play (once I got the extra apache modules I was missing ¬_¬.) I really love the interface design and feel, it's one of the nicest web interfaces I've ever used.",Unknown,0
+"I'm slightly befuddled about the total absence of a front end. As it is right now, it's basically PHPMyAdmin with a different implementation of multiple users. Forgive me if I'm missing something, but if I use this on my site, I'll have to write the database connection stuff for it myself along with pagination, routing, escaping and all the other boring things that I just don't want to have to reimplement for the nth time. It seems at the very least you should include a templating/ database class that handles some of the basics. I could use a seperate framework or one of the trendy new microframeworks, but I feel like there is a big disconnect there and no synergy, and that it should be provided by Directus. Maybe provide it as a plugin if you don't wish to include it with the Directus core.",Unknown,0
+"And as others have said, passwords in plaintext and the other security considerations need to be dealt with asap.",Unknown,0
+"Still, I really like this and want to see it go places.",Unknown,0
+1,Unknown,0
+u/nevon avatar,Unknown,0
+nevon,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Here's where I could potentially see it (or something like it) being useful. Say a client has a static website that just needs to display some information. Perhaps a news feed, an image gallery and a list of events. Now they want to make it easier for them to keep it up to date, but they don't want a full rewrite in some fancy CMS. That's when Directus could be useful. Just hook Directus up to a database, define the content (I haven't actually used Directus, so I'm not sure what this step would involve), and then you just need to update the old site with code that fetches the data from the database and displays it.",Unknown,0
+"This isn't something I'd use if a complete remake was an option, but when it isn't, it could be a huge timesaver, and I'm sure the client would appreciate the nice admin UI.",Unknown,0
+2,Unknown,0
+DaRKoN_,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Congrats on building something and launching it with that level of polish.,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Thank you. My business partner is to praise for most of the polish... he has joined the project for the past year and really helped it become what it is now.,Unknown,0
+1,Unknown,0
+u/fergie avatar,Unknown,0
+fergie,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Why is this CMS better than, say, Drupal, Joomla or Wordpress? What is its killer feature? For which type of website will this CMS be the undisputed best choice?",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"The main difference is that it manages the data (db) not the front-end (html/css)... which could be an advantage or disadvantage depending on your site/project. Other CMS have everything bundled in inseparably where as this could be used much like phpmyadmin... but much safer and with nice features like media, relational items and user accountability. Hope that answers your question at least partially!",Unknown,0
+1,Unknown,0
+u/skinny_much avatar,Unknown,0
+skinny_much,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Well, this is better than Joomla. Its killer feature against Joomla is not being the cluster-fuck that is Joomla.",Unknown,0
+1,Unknown,0
+u/thatssorelevant avatar,Unknown,0
+thatssorelevant,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+It looks absolutely amazing and I can't wait to try it out.,Unknown,0
+$5,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"$5? Haha, thanks! I'm very happy with it as of now... and the feedback from this post has helped out a lot for next steps.",Unknown,0
+1,Unknown,0
+greut,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Wouldn't be nicer if the revert was just loading the previous version in the form without actually doing the revert? Or give a way to view the modifications.,Unknown,0
+1,Unknown,0
+u/hm2k avatar,Unknown,0
+hm2k,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"You should add benefits over Concrete5, Wordpress or Drupal.",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Good idea, I have added this to my list of things to do... thanks!",Unknown,0
+1,Unknown,0
+u/hm2k avatar,Unknown,0
+hm2k,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"I like your logo, how did you make it?",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+My business partner did... and he made it in Illustrator. You'd have to ask him about details beyond that!,Unknown,0
+1,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"One problem I see, I'm on linux with firefox, is that my text doesn't show up in the input boxes. I suppose it's mainly because my theme sets text boxes to a default of black background with a white foreground, and as of right now it's not usable for me unless I highlight the text. However I love the layout and minimalism, congrats.",Unknown,0
+1,Unknown,0
+u/sexybeast099 avatar,Unknown,0
+sexybeast099,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Alright, who hacked the site? All I see now is ""Greetz from Reddit... fvzbapch jnf urer""",Unknown,0
+"I was just about to post the link to my university CS BBS, but now I'm gonna wait until OP fixes it.",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"The guy Simon above... he did it to help (apparently) but exploited an issue that I was aware of (the reason I didn't include a live demo). The live demo will be up again eventually, but I need to find the best way to disable media uploads.",Unknown,0
+1,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+What made you decide to release it as open source rather than a commercial product?,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Great question. I'd be lying if I said I hadn't thought of selling it, but in the end it came down to these reasons:",Unknown,0
+"I think it's a great piece of software and I would love for it to become one of the preferred, well known Content Management Frameworks out there. This could also potentially drive business to my studio.",Unknown,0
+I don't want to spend my time dealing with anyone who has issues with the software. I know it is not perfect (yet ;) and when people pay for things they will undoubtedly complain and want refunds. There are also potential legal issues to be aware of when selling software.,Unknown,0
+"I have plans to monetize other (smaller) aspects of the CMF, such as a bootstrap for building the initial SQL query and html/php starter templates. Only free software gets enough exposure to make this possible.",Unknown,0
+1,Unknown,0
+2 more replies,Unknown,0
+buggedcom,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"why are you turning off etags in the htaccess? why not reply on etags, last-modified and expires?",Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+This was something I worked on a while ago and maybe there is a better solution. I think it had to do with etags sending 304s despite the headers being set in the far-future. This configuration had the best results... only sending requests when absolutely needed (typically when appending a query string to the path). Does that make sense?,Unknown,0
+1,Unknown,0
+6 more replies,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Happy cake day!,Unknown,0
+Also questions:,Unknown,0
+What is the biggest lesson(s) you have learnt whilst building this?,Unknown,0
+How much planning did you do when you first started?,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+So kind of you to notice! HBTM!,Unknown,0
+"The biggest lesson I learned while building Directus... that you can never fall in love with any aspect of ongoing software to the extent that you are no longer willing to change or remove it if necessary. Technologies, aesthetics, securities and needs are all ever-changing... and if you hold on to the past (or even the current), your software will become outdated and/or bloated very quickly. That is why I take no offense with the criticisms made here... it's all fuel for the next iteration.",Unknown,0
+"Directus has been a gradual build... it started as a small CMS custom built to meet specific client needs (as we have all had to build). It wasn't until I realized the value of such an open platform that I saw it as something that could be used beyond myself. There was never a research phase where I looked at all the other CMSs out there to decide on features and therefore Directus is not really like any other CMS. Instead, when I realized Directus needed a new feature I looked at a lot of specific examples of that feature being done well by other sites (not just in CMSs) and integrated that in. This method alone would be far to piecemeal to have well structured code... so I would refactor all these features into one cohesive system with each major version. It is this refactoring (in MVC this time) that Directus will get for v6.0 once I have added/removed features based on the public's response now.",Unknown,0
+Hope that answers your questions!,Unknown,0
+2,Unknown,0
+3 more replies,Unknown,0
+u/dyslexiccoder avatar,Unknown,0
+dyslexiccoder,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"""Available for a killer price. Free."" I like that, I like that a lot.",Unknown,0
+1,Unknown,0
+u/beaver82 avatar,Unknown,0
+beaver82,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"I've seen the setting video, I think it's very nice the way you have items composed of custom media types, that's what I'm looking for in a cms.. Anyway where is the php api and functions to get the data from the cms and build the theme? do I have to write my custom mysql queries?",Unknown,0
+1,Unknown,0
+RobbStark,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+bake boat vase cheerful steer nutty automatic humor cows pie -- mass edited with https://redact.dev/,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+A great recommendation. I think those differences are what define Directus (and the reason I built the framework in the first place) and should be highlighted on the homepage... perhaps in a concise chart. Thanks!,Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+u/omepiet avatar,Unknown,0
+omepiet,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Chrome/FireFox/Safari are the recommended browsers for Directus.,Unknown,0
+Don't ever be so pedantic to tell users it's their fault that your website might not work.,Unknown,0
+0,Unknown,0
+u/strategicdeceiver avatar,Unknown,0
+strategicdeceiver,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"This is backend stuff, I see no problem telling an admin users to use a certain browser to use a cms.",Unknown,0
+4,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Web applications are not the same as a local restaurants website. It truly is software, and it's perfectly OK to inform users how it was meant to be experienced.",Unknown,0
+2,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Noted. Although it's software, not a website... so it has requirements (like PHP version) that are needed to properly use. IE and other browsers haven't been thoroughly tested and don't support some drag and drop functionality within the CMS.",Unknown,0
+2,Unknown,0
+1 more reply,Unknown,0
+u/keithasaurus avatar,Unknown,0
+keithasaurus,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"dear god, man. the code. clean that up and separate the logic from the presentation.",Unknown,0
+"if you've got this much energy to put into a cms or admin, why not work in a more legible and less-dying language like python or ruby? or why not contribute to things that already possess the features you're attempting to create, like the django admin? i think -- even if you want to continue with this project -- you'd learn a lot by taking a close look at some more mature implementations of this type of application -- django admin, rails_admin, active_admin, etc.",Unknown,0
+"separately i checked out your demo, and didn't use it too much, but i noticed you can delete media with one click -- it would probably make sense to add a confirmation step for all things that are going to be deleted. also, you probably have too many notifications, like when a user gets to the bottom or top of a page. that can get annoying pretty quickly.",Unknown,0
+-3,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Overwhelmingly the most common complaint is with the logic/presentation separation. This is a larger change that I will need to do with the next full version. I chose PHP because it was the language I knew best... and I didn't (don't) think it's dying. I agree that looking at other CMSs is a great idea and have been for some time.,Unknown,0
+"Your comment about the ease of media deletion is a great one and I have added it to my list of fixes. The notifications when scrolling only happens on the dashboard... and is a lot better after a bit of content entry (when there are many, many pages to scroll through... but I will look into this as well!",Unknown,0
+2,Unknown,0
+4 more replies,Unknown,0
+u/LoveGentleman avatar,Unknown,0
+LoveGentleman,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Whats with the screencasts? Why dont you have real documentation? You know not all of us have the attention span of a goldfish, we can actually read text.",Unknown,0
+0,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+All there is at the moment is http://getdirectus.com/support/ which I think covers most things. There is also a forum (empty as of now) that I just added. Hope that helps!,Unknown,0
+2,Unknown,0
+u/sexybeast099 avatar,Unknown,0
+sexybeast099,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+I have the atte... wha?,Unknown,0
+0,Unknown,0
+u/kisuka avatar,Unknown,0
+kisuka,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"No thanks, I'll stick to Drupal.",Unknown,0
+-3,Unknown,0
+u/sexybeast099 avatar,Unknown,0
+sexybeast099,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+reasons why?,Unknown,0
+3,Unknown,0
+3 more replies,Unknown,0
+u/pokeyjones avatar,Unknown,0
+pokeyjones,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+"Dude, it helped me find my car.",Unknown,0
+-1,Unknown,0
+buggedcom,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+?,Unknown,0
+1,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+??,Unknown,0
+1,Unknown,0
+[deleted],Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Comment deleted by user,Unknown,0
+u/benhaynes avatar,Unknown,0
+benhaynes,Unknown,0
+•,Unknown,0
+14y ago,Unknown,0
+Exactly. From the comments here I have learned that v5.1 needs to fix any security issues and a few other tweaks... and then v6 needs to be rebuilt using mvc. Glad you like it!,Unknown,0

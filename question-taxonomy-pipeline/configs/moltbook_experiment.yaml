@@ -1,0 +1,49 @@
+# Inference-only config. Add the raw Moltbook CSV under dataset/moltbook to run it.
+# This file classifies questions but skips evaluation metrics because the CSV has no Eris ground-truth labels.
+
+provider: gemini
+model: gemini-2.5-flash
+
+data_dir: dataset/moltbook
+providers_dir: configs/providers
+
+test_file: moltbook_questions.csv
+icl_demo_file: null
+
+taxonomy_file: configs/taxonomy.yaml
+
+batch_size: 50
+
+# Optional zero-based row slicing for chunked/resume runs:
+# - row_start is inclusive
+# - row_end is exclusive
+# Example: row_start: 1000 and row_end: 2000 processes source rows 1000-1999.
+row_start: null
+row_end: null
+
+prompts_root: prompts
+prompts_register_in_opik: false
+opik_capture_io: false
+
+label_subcategories: true
+include_icl_demo: false
+include_subcategory_in_icl_demo: false
+
+group_col: null
+
+icl_demo_question_col: null
+icl_demo_category_col: null
+icl_demo_subcategory_col: null
+
+test_question_col: Extracted_Question
+test_category_col: null
+test_subcategory_col: null
+
+stats:
+  seed: 42
+  n_boot: 10000
+  alpha: 0.05
+  labels_order:
+    - LLQ
+    - DRQ
+    - GDQ

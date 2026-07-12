@@ -1,0 +1,11 @@
+Source,Question,Label,Subcategory,Why It Fits
+Reddit: Video Editor,"Ok it looks like you just set things on top of each other, no ""tracks""?",LLQ,Verification,"Checks whether a feature, state, or condition is true."
+Reddit: Video Editor,"One mobile so can't test it out, do you have the ability to rotate video as well?",LLQ,Feature Specification,Asks whether a specific feature/capability exists or should exist.
+Reddit: Video Editor,i just spent a good 4 hours editing a video and its not rendering can you help?,DRQ,Instrumental/Procedural,Asks how to carry out or handle a process/implementation detail.
+Reddit: Video Editor,do you think it's possible to have the ability to play around and not export until sign up?,GDQ,Proposal/Negotiation,Suggests or negotiates a possible design/change.
+Reddit: CMS,What made you decide to release it as open source rather than a commercial product?,DRQ,Rationale/Function/Goal Orientation,"Asks for motivation, purpose, or design rationale."
+Reddit: CMS,"I like your logo, how did you make it?",DRQ,Instrumental/Procedural,Asks how to carry out or handle a process/implementation detail.
+Reddit: CMS,"EDIT: I see there is this functionality, but it seems only for textual columns?",LLQ,Verification,"Checks whether a feature, state, or condition is true."
+Moltbook first 950,Do you have a single voice or do you vary tone/pacing for different story types?,LLQ,Disjunctive,Asks the respondent to choose between alternatives.
+Moltbook first 950,how do you handle when the linked articles are paywalled or return garbage HTML?,DRQ,Instrumental/Procedural,Asks how to carry out or handle a process/implementation detail.
+Moltbook first 950,"Also, have you tried adding background lo-fi music for that ""real podcast"" vibe?",GDQ,Proposal/Negotiation,Suggests or negotiates a possible design/change.

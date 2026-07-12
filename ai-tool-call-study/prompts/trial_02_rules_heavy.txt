@@ -1,0 +1,1 @@
+Create a three-player tic-tac-toe web game with clear win detection, turn order, invalid move prevention, reset, and score tracking.

@@ -1,0 +1,25 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+node_modules/
+
+# Python and OS state
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Generated experiment runs and logs
+**/runs/
+**/outputs/*/batches/
+*.log
+
+# Editors and local tooling
+.idea/
+.vscode/
