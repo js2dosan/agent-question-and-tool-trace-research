@@ -1,0 +1,35 @@
+trial_id,turn_index,call_index,tool_name,category,verification_strength,tool_target,returncode,created_files,modified_files,deleted_files,evidence
+trial_01_minimal,0,0,run_command,orientation,,ls -F,0,,,,ls -F
+trial_01_minimal,1,0,write_file,implementation,,index.html,,index.html,,,index.html
+trial_01_minimal,2,0,run_command,verification,structural,"# No server needed, just verify file existence.
+ls -l index.html",0,,,,"# No server needed, just verify file existence.
+ls -l index.html"
+trial_01_minimal,3,0,finish,finalization,,,,,,,"I have created a simple 3-player Tic-Tac-Toe web game using a single HTML file with embedded CSS and JavaScript. It features a 3x3 grid, three distinct symbols (X, O, Δ), and basic"
+trial_02_rules_heavy,0,0,run_command,orientation,,ls -F,0,,,,ls -F
+trial_02_rules_heavy,1,0,write_file,implementation,,index.html,,index.html,,,index.html
+trial_02_rules_heavy,2,0,finish,finalization,,,,,,,"Created a 3-player Tic-Tac-Toe web game. Features include a 3x3 grid, turn management for players X, O, and Δ, win detection, score tracking, and a reset button. It uses simple HTM"
+trial_03_design_heavy,0,0,run_command,orientation,,ls -F,0,,,,ls -F
+trial_03_design_heavy,1,0,write_file,implementation,,index.html,,index.html,,,index.html
+trial_03_design_heavy,2,0,run_command,verification,structural,"# No specific test needed, the logic is self-contained.
+# Just verifying the file exists.
+ls -l index.html",0,,,,"# No specific test needed, the logic is self-contained.
+# Just verifying the file exists.
+ls -l index.html"
+trial_03_design_heavy,3,0,finish,finalization,,,,,,,"Implemented a 3-player Tic-Tac-Toe game using HTML, CSS, and vanilla JavaScript. Features a responsive grid, distinct player colors and symbols, and a clean modern aesthetic."
+trial_04_verification_heavy,0,0,run_command,orientation,,ls -F,0,,,,ls -F
+trial_04_verification_heavy,1,0,write_file,implementation,,index.html,,index.html,,,index.html
+trial_04_verification_heavy,2,0,write_file,implementation,,test.js,,test.js,,,test.js
+trial_04_verification_heavy,3,0,run_command,verification,behavioral,node test.js,0,,,,node test.js
+trial_04_verification_heavy,4,0,finish,finalization,,,,,,,"Created a simple 3-player Tic-Tac-Toe game using HTML, CSS, and vanilla JS. The game supports 3 players (X, O, △) with a 3x3 grid. Logic ensures turns cycle through the 3 players a"
+trial_05_trace_aware,0,0,run_command,orientation,,ls -F,0,,,,ls -F
+trial_05_trace_aware,1,0,write_file,implementation,,index.html,,index.html,,,index.html
+trial_05_trace_aware,2,0,write_file,implementation,,game.js,,game.js,,,game.js
+trial_05_trace_aware,3,0,run_command,verification,structural,"# No specific tests needed for this simple logic,
+# but checking if files exist.
+ls -l index.html game.js",0,,,,"# No specific tests needed for this simple logic,
+# but checking if files exist.
+ls -l index.html game.js"
+trial_05_trace_aware,4,0,finish,finalization,,,,,,,"I created a 3-player Tic-Tac-Toe game.
+- The board is a standard 3x3 grid.
+- Three players cycle turns using symbols X, O, and △.
+- The game checks for standard Tic-Tac-Toe winning"

@@ -46,6 +46,7 @@ def classify_event(event: Dict[str, Any]) -> Dict[str, Any]:
     result = event.get("tool_result", {}) or {}
     command = str(args.get("command", ""))
     file_diff = event.get("file_diff", {}) or {}
+    verification_strength = command_verification_strength(command) if tool_name == "run_command" else ""
 
     category = "implementation"
     evidence = ""
@@ -53,7 +54,7 @@ def classify_event(event: Dict[str, Any]) -> Dict[str, Any]:
         category = "orientation"
         evidence = "workspace/file inspection"
     elif tool_name == "run_command":
-        if is_verification_command(command):
+        if verification_strength:
             category = "verification"
             evidence = command
         else:
@@ -72,6 +73,7 @@ def classify_event(event: Dict[str, Any]) -> Dict[str, Any]:
         "call_index": event.get("call_index"),
         "tool_name": tool_name,
         "category": category,
+        "verification_strength": verification_strength,
         "tool_target": args.get("path") or command or "",
         "returncode": result.get("returncode", ""),
         "created_files": ";".join(file_diff.get("created", [])),
@@ -82,19 +84,30 @@ def classify_event(event: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def is_verification_command(command: str) -> bool:
-    command_lower = command.lower()
-    verification_markers = [
+    return bool(command_verification_strength(command))
+
+
+def command_verification_strength(command: str) -> str:
+    executable_lines = [line.strip() for line in command.splitlines() if not line.strip().startswith("#")]
+    command_lower = "\n".join(executable_lines).lower()
+    behavioral_markers = [
         "test",
         "node test",
         "npm test",
         "pytest",
         "playwright",
         "vitest",
+    ]
+    structural_markers = [
         "ls -l",
         "cat ",
         "grep ",
     ]
-    return any(marker in command_lower for marker in verification_markers)
+    if any(marker in command_lower for marker in behavioral_markers):
+        return "behavioral"
+    if any(marker in command_lower for marker in structural_markers):
+        return "structural"
+    return ""
 
 
 def summarize_by_prompt(rows: List[Dict[str, Any]], runs_dir: Path) -> List[Dict[str, Any]]:

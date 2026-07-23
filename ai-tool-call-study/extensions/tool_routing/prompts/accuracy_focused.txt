@@ -1,0 +1,8 @@
+Read transactions.csv and create report.json in the workspace.
+
+The JSON must contain exactly these fields:
+- "monthly_net" with totals for "2026-01" and "2026-02"
+- "largest_expense" with "date", "amount", and "category"
+- "expense_count"
+
+Prioritize exact arithmetic. Validate the totals and JSON structure before finishing. Use numbers, not strings, for every amount and count.

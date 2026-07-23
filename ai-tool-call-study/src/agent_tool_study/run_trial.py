@@ -30,6 +30,16 @@ def main() -> None:
     parser.add_argument("--trial-id", required=True)
     parser.add_argument("--prompt", required=True, type=Path)
     parser.add_argument("--runs-dir", default=Path("runs"), type=Path)
+    parser.add_argument(
+        "--seed-dir",
+        type=Path,
+        help="Copy files from this directory into the otherwise empty trial workspace before the run.",
+    )
+    parser.add_argument(
+        "--disable-run-command",
+        action="store_true",
+        help="Remove run_command from the agent tool set for a tool-availability control condition.",
+    )
     parser.add_argument("--model", default=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
     parser.add_argument("--temperature", default=0.7, type=float)
     parser.add_argument("--max-turns", default=40, type=int)
@@ -52,6 +62,11 @@ def main() -> None:
         shutil.rmtree(run_dir)
     run_dir.mkdir(parents=True, exist_ok=True)
     workspace.mkdir(parents=True, exist_ok=True)
+    seed_dir = args.seed_dir.resolve() if args.seed_dir else None
+    if seed_dir:
+        if not seed_dir.is_dir():
+            raise SystemExit(f"Seed directory does not exist: {seed_dir}")
+        shutil.copytree(seed_dir, workspace, dirs_exist_ok=True)
 
     logger = EventLogger(run_dir / "events.jsonl", args.trial_id)
     logger.write(
@@ -61,6 +76,8 @@ def main() -> None:
         model=args.model,
         temperature=args.temperature,
         workspace=str(workspace),
+        seed_dir=str(seed_dir) if seed_dir else None,
+        run_command_available=not args.disable_run_command,
         dry_run=args.dry_run,
         thinking_level=args.thinking_level,
     )
@@ -74,7 +91,7 @@ def main() -> None:
     if not api_key:
         raise SystemExit("Set GEMINI_API_KEY or GOOGLE_API_KEY before running a real trial.")
 
-    toolbox = LocalToolbox(workspace)
+    toolbox = LocalToolbox(workspace, allow_run_command=not args.disable_run_command)
     client = genai.Client(api_key=api_key)
     tool = types.Tool(
         function_declarations=[

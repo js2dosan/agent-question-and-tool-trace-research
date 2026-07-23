@@ -12,3 +12,9 @@ uv run analyze-tool-calls --runs-dir runs --out-dir analysis
 ```
 
 Generated runs are intentionally ignored. The checked-in analysis contains aggregate results from the completed pilot.
+
+## Tool-Routing Extension
+
+[`extensions/tool_routing/`](extensions/tool_routing/) contains the next runnable experiment. It holds a deterministic CSV task constant, records whether the agent routes to Python through `run_command`, and scores the final JSON exactly. The experiment includes neutral, accuracy-focused, explanation-focused, and no-command control conditions.
+
+The motivation is documented in [`analysis/tool_trace_quality_follow_up.md`](analysis/tool_trace_quality_follow_up.md): all five original pilot trials used the generic shell command for initial inspection, while only one executed a behavioral test.

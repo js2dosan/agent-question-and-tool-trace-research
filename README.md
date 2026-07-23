@@ -116,6 +116,12 @@ This work suggests a way to study agent behavior without overclaiming access to 
 - Add browser and screenshot tools to test richer verification behavior.
 - Test whether particular question patterns predict particular tool-use patterns.
 
+## Latest Research Update
+
+The project now has a focused next experiment: **Tool-Routing Under Equivalent Options**. An agent receives a deterministic CSV task that it can solve manually or with Python through the command tool. The extension measures which route it chooses, when it chooses it, the type of verification it performs, and whether the final JSON is exactly correct. It also includes a no-command control condition.
+
+This follows a closer read of the existing pilot: all five trials used a generic shell command for initial file inspection despite dedicated file tools being available, and only one trial performed an executable behavioral test. Read the [trace-quality follow-up](ai-tool-call-study/analysis/tool_trace_quality_follow_up.md) and the runnable [tool-routing extension](ai-tool-call-study/extensions/tool_routing/README.md).
+
 ## Explore the work
 
 | Start here | What you will see |
@@ -124,6 +130,10 @@ This work suggests a way to study agent behavior without overclaiming access to 
 | [`reddit-vs-moltbook-analysis/reddit_moltbook_question_taxonomy_analysis.xlsx`](reddit-vs-moltbook-analysis/reddit_moltbook_question_taxonomy_analysis.xlsx) | Excel dashboard with charts and source tables. |
 | [`question-taxonomy-pipeline/`](question-taxonomy-pipeline/) | Classification code, taxonomy, prompts, provider configs, tests, and cleaned Reddit inputs. |
 | [`ai-tool-call-study/analysis/pilot_report.md`](ai-tool-call-study/analysis/pilot_report.md) | Controlled coding-agent pilot and tool-call findings. |
+| [`ai-tool-call-study/analysis/tool_trace_quality_follow_up.md`](ai-tool-call-study/analysis/tool_trace_quality_follow_up.md) | New distinction between structural and behavioral verification. |
+| [`ai-tool-call-study/extensions/tool_routing/`](ai-tool-call-study/extensions/tool_routing/) | Runnable next experiment on tool selection, verification, and correctness. |
+| [`reddit-vs-moltbook-analysis/statistical_follow_up.md`](reddit-vs-moltbook-analysis/statistical_follow_up.md) | New effect-size and uncertainty follow-up for the main question comparison. |
+| [`docs/PROFESSOR_MEETING_BRIEF_2026-07-24.md`](docs/PROFESSOR_MEETING_BRIEF_2026-07-24.md) | Short talking points and links for the professor meeting. |
 | [`ai-tool-call-study/docs/study_protocol.md`](ai-tool-call-study/docs/study_protocol.md) | Experimental controls, prompt conditions, and trace interpretation. |
 | [`presentation/`](presentation/) | Final lightning-talk visuals and research handoff. |
 

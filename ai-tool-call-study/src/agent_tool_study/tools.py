@@ -15,12 +15,13 @@ class ToolError(ValueError):
 
 
 class LocalToolbox:
-    def __init__(self, workspace: Path) -> None:
+    def __init__(self, workspace: Path, allow_run_command: bool = True) -> None:
         self.workspace = workspace.resolve()
+        self.allow_run_command = allow_run_command
         self.workspace.mkdir(parents=True, exist_ok=True)
 
     def tool_specs(self) -> List[Dict[str, Any]]:
-        return [
+        specs = [
             {
                 "name": "list_files",
                 "description": "List files under the trial workspace.",
@@ -56,21 +57,6 @@ class LocalToolbox:
                 },
             },
             {
-                "name": "run_command",
-                "description": "Run a shell command inside the trial workspace. Use this for tests, builds, and simple inspection commands.",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "command": {"type": "string", "description": "Command to run."},
-                        "timeout_seconds": {
-                            "type": "integer",
-                            "description": "Timeout in seconds. Defaults to 30.",
-                        },
-                    },
-                    "required": ["command"],
-                },
-            },
-            {
                 "name": "finish",
                 "description": "Finish the trial with a concise summary of the implementation and verification.",
                 "parameters": {
@@ -88,6 +74,26 @@ class LocalToolbox:
                 },
             },
         ]
+        if self.allow_run_command:
+            specs.insert(
+                3,
+                {
+                    "name": "run_command",
+                    "description": "Run a shell command inside the trial workspace. Use this for tests, builds, and simple inspection commands.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "command": {"type": "string", "description": "Command to run."},
+                            "timeout_seconds": {
+                                "type": "integer",
+                                "description": "Timeout in seconds. Defaults to 30.",
+                            },
+                        },
+                        "required": ["command"],
+                    },
+                },
+            )
+        return specs
 
     def execute(self, name: str, args: Dict[str, Any]) -> Dict[str, Any]:
         if name == "list_files":
@@ -97,6 +103,8 @@ class LocalToolbox:
         if name == "write_file":
             return self.write_file(args["path"], args["content"])
         if name == "run_command":
+            if not self.allow_run_command:
+                raise ToolError("run_command is disabled for this trial")
             return self.run_command(args["command"], int(args.get("timeout_seconds", 30)))
         if name == "finish":
             return {"finished": True, **args}
