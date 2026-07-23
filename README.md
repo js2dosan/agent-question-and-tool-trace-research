@@ -133,7 +133,6 @@ This follows a closer read of the existing pilot: all five trials used a generic
 | [`ai-tool-call-study/analysis/tool_trace_quality_follow_up.md`](ai-tool-call-study/analysis/tool_trace_quality_follow_up.md) | New distinction between structural and behavioral verification. |
 | [`ai-tool-call-study/extensions/tool_routing/`](ai-tool-call-study/extensions/tool_routing/) | Runnable next experiment on tool selection, verification, and correctness. |
 | [`reddit-vs-moltbook-analysis/statistical_follow_up.md`](reddit-vs-moltbook-analysis/statistical_follow_up.md) | New effect-size and uncertainty follow-up for the main question comparison. |
-| [`docs/PROFESSOR_MEETING_BRIEF_2026-07-24.md`](docs/PROFESSOR_MEETING_BRIEF_2026-07-24.md) | Short talking points and links for the professor meeting. |
 | [`ai-tool-call-study/docs/study_protocol.md`](ai-tool-call-study/docs/study_protocol.md) | Experimental controls, prompt conditions, and trace interpretation. |
 | [`presentation/`](presentation/) | Final lightning-talk visuals and research handoff. |
 
